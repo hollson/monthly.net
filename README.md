@@ -3,9 +3,7 @@
 
 Monthly是一个跟`Datetime`类似的**月份数据类型**，适用于表达年月数据，如账单、账期、月刊等信息。
 
-
-
-
+<br/>
 
 ## 使用介绍
 
@@ -61,7 +59,8 @@ Monthly是一个跟`Datetime`类似的**月份数据类型**，适用于表达�
 - `List<Monthly> Axis(Monthly from, Monthly to)`  同`List<Monthly> Axis(int from, int to)`
  ​
 - `ToString(string format = "yyyy/mm")`  获取包含"Y、y、M、m"字符格式的自定义Monthly字符串，format 格式如：`yyyy/mm ; yy/mm `; `yyyy年mm月` ;`YYYY-Mm`...，不区分大小写
-​
+
+<br/>
 
 **示例：**
 ```c#
@@ -79,14 +78,12 @@ Monthly是一个跟`Datetime`类似的**月份数据类型**，适用于表达�
    m.ToString("公元YyYy年mM月,哈哈...");
 ```
 
-
 ###  4.Monthly操作符
 Monthly支持`+、- 、* 、/ 、> 、>= 、< 、<= 、++ 、-- 、== 、!=` 运算符操作。
 > 特别注意:`-`操作，他有`operator -(Monthly m, int months)`和`operator -(Monthly m1, Monthly m2)`两个重载版本，且方法功能不同，如果是第二个版本，则必须显式标注被减对象的数据类型，如`m-(Monthly)201701`
 
 
-
-
+<br/>
 
 ### 参考:
 Datetime:  https://referencesource.microsoft.com/#mscorlib/system/datetime.cs,df6b1eba7461813b	
