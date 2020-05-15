@@ -1,6 +1,4 @@
 # monthly.net
-> A month data type for applications such as bills, invoices, etc.
-
 Monthly是一个跟`Datetime`类似的**月份数据类型**，适用于表达年月数据，如账单、账期、月刊等信息。
 
 <br/>
