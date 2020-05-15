@@ -75,6 +75,7 @@ Monthly是一个跟`Datetime`类似的**月份数据类型**，适用于表达�
    m.ToString("YYYY年m月");
    m.ToString("公元YyYy年mM月,哈哈...");
 ```
+> 更多完整示例，请查看[Monthly测试用例](https://github.com/hollson/monthly.net/blob/master/Monthly.Test/MonthlyTest.cs)。
 
 ###  4.Monthly操作符
 Monthly支持`+、- 、* 、/ 、> 、>= 、< 、<= 、++ 、-- 、== 、!=` 运算符操作。
