@@ -5,7 +5,7 @@ all: build
 build:
 	@dotnet build ./Monthly
 
-## run@启动测试。
+## test@启动测试。
 .PHONY:test
 test:
 	@echo "启动测试用例..."
