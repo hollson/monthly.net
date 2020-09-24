@@ -1,5 +1,5 @@
 # monthly.net
-Monthly是一个跟`Datetime`类似的**月份数据类型**，适用于表达年月数据，如账单、税期、月刊等信息。
+Monthly是一个跟`Datetime`类似的**月期类型**，适用于表达年月数据，如账单、税期、月刊等信息。
 
 <br/>
 
@@ -85,4 +85,4 @@ Monthly支持`+、- 、* 、/ 、> 、>= 、< 、<= 、++ 、-- 、== 、!=` 运
 <br/>
 
 ### 参考:
-Datetime:  https://referencesource.microsoft.com/#mscorlib/system/datetime.cs,df6b1eba7461813b	
+Datetime:  https://referencesource.microsoft.com/#mscorlib/system/datetime.cs
